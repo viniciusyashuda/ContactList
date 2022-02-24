@@ -12,7 +12,7 @@ namespace ContactsList
         public int DDD { get; set; }
         public string Number { get; set; }
         public Phone Next { get; set; }
-
+        //test git
         public Phone(string type, int ddd, string number)
         {
             Type = type;
